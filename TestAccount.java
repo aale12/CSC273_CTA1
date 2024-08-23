@@ -12,6 +12,7 @@ public class TestAccount {
         CheckingAccount checkingAccount = new CheckingAccount("Anthony", "Le", 1, 125.00, 0.04);
         checkingAccount.deposit(75);
         checkingAccount.processWithdrawal(500);
+        System.out.println("\nChecking Account information:");
         System.out.println(checkingAccount.displayAccount());
     }
 }
